@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Button
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -31,16 +32,16 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
+fun ComponenteBoton() {
+    Button(onClick = {}) {
+        Text("Click")
+    }
 }
 
 @Preview(showBackground = true)
-
 @Composable
-fun ComponenteTexto() {
-    Text("Hola mundo")
+fun GreetingPreview() {
+    Lab04Theme {
+        Greeting("Android")
+    }
 }
