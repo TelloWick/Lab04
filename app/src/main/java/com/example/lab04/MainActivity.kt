@@ -41,7 +41,10 @@ fun ComponenteBoton() {
 @Composable
 fun ComponenteCard() {
     Card {
-        Text("Soy una card")
+        Text(
+            "Soy una card mejorada",
+            fontSize = 20.sp
+        )
     }
 }
 
