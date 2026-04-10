@@ -36,7 +36,7 @@ fun ComponenteBoton() {
 fun ComponenteTexto() {
     Text(
         text = "Hola mundo",
-        fontSize = 24.sp   // cambio de estilo
+        fontSize = 24.sp   
     )
 }
 
