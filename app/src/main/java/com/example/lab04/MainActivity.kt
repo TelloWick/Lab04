@@ -39,9 +39,8 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 }
 
 @Preview(showBackground = true)
+
 @Composable
-fun GreetingPreview() {
-    Lab04Theme {
-        Greeting("Android")
-    }
+fun ComponenteTexto() {
+    Text("Hola mundo")
 }
