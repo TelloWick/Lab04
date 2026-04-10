@@ -38,6 +38,13 @@ fun ComponenteBoton() {
     }
 }
 
+@Composable
+fun ComponenteCard() {
+    Card {
+        Text("Soy una card")
+    }
+}
+
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
