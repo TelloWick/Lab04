@@ -33,18 +33,18 @@ fun ComponenteBoton() {
 }
 
 @Composable
-<<<<<<< HEAD
+fun ComponenteTexto() {
+    Text("Hola mundo - Fabricio y Compañero")
+}
+
+@Composable
 fun ComponenteCard() {
     Card {
         Text(
-            "Soy una card mejorada",
+            text = "Soy una card mejorada",
             fontSize = 20.sp
         )
     }
-=======
-fun ComponenteTexto() {
-    Text("Hola mundo - Compañero")
->>>>>>> Upgrading-component-1
 }
 
 @Preview(showBackground = true)
