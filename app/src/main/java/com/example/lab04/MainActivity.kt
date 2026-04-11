@@ -43,10 +43,7 @@ fun ComponenteCard() {
     }
 =======
 fun ComponenteTexto() {
-    Text(
-        text = "Hola mundo",
-        fontSize = 24.sp   
-    )
+    Text("Hola mundo - Fabricio")
 >>>>>>> Upgrading-component-1
 }
 
