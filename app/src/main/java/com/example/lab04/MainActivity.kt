@@ -12,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.sp
 import com.example.lab04.ui.theme.Lab04Theme
 
 class MainActivity : ComponentActivity() {
@@ -19,14 +20,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Lab04Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
-            }
+
         }
     }
 }
@@ -39,6 +33,7 @@ fun ComponenteBoton() {
 }
 
 @Composable
+<<<<<<< HEAD
 fun ComponenteCard() {
     Card {
         Text(
@@ -46,12 +41,17 @@ fun ComponenteCard() {
             fontSize = 20.sp
         )
     }
+=======
+fun ComponenteTexto() {
+    Text(
+        text = "Hola mundo",
+        fontSize = 24.sp   
+    )
+>>>>>>> Upgrading-component-1
 }
 
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    Lab04Theme {
-        Greeting("Android")
-    }
+
 }
