@@ -43,7 +43,7 @@ fun ComponenteCard() {
     }
 =======
 fun ComponenteTexto() {
-    Text("Hola mundo - Fabricio")
+    Text("Hola mundo - Compañero")
 >>>>>>> Upgrading-component-1
 }
 
